@@ -2,11 +2,11 @@ import java.io.*;
 
 public class MyFileWriter {
     public static void main(String[] args) {
-        String password = "helloworld1234";
-        String data = "glorb";
+        String password = "helloworld1235";
+        String data = "blorg";
         String hiddenFileName = ".supersecretexample.txt";
         String hiddenDirectoryName = ".confidential";
-        String extraHiddenFileName = ".classified.dat";
+        String extraHiddenFileName = ".classified.gat";
 
         // BufferedOutputStream
         try (BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(
