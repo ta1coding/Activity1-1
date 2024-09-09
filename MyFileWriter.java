@@ -34,4 +34,9 @@ public class MyFileWriter {
         File file = new File(fileName);
         System.out.println(file.length());
     }
+    // Calculate and print the file size using the File class
+    private static void printFileSize(String fileName) {
+        File file = new File(fileName);
+        System.out.println(file.length());
+    }
 }
